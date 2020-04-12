@@ -1,0 +1,107 @@
+body {
+    background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(62, 62, 145, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-attachment: fixed;
+  }
+  
+  h1 {
+    color: white;
+    font-family:Poppins, sans-serif;
+    text-align: center;
+  }
+  
+  .description {
+    font-style: italic;
+    color: white;
+    text-align: center;
+    font-family:Poppins, sans-serif ;
+  }
+  
+  form {
+    margin: auto;
+    width: 700px;
+    color: white;
+    background-color: #2B2A4A;
+    background-clip: padding-box;
+    padding: 2.5rem;
+    font-size: 1.125rem;
+  }
+  
+  input[type="name"] {
+    font-size: 1.125rem;
+    width: 100%;
+    border: 3px solid steelblue;
+    height: 30px;
+    border-radius: 0.25rem;
+    margin: auto;  
+  }
+  
+  input[type="email"] {
+    display: block;
+    width: 100%;
+    border: 3px solid steelblue;
+   height: 30px;
+   border-radius: 0.25rem;
+   margin: auto;
+   font-size: 1.125rem;
+    }
+  
+  
+  input[type="number"] {
+    display: block;
+    width: 100%;
+    border: 3px solid steelblue;
+    height: 30px;
+    border-radius: 0.25rem;
+    font-weight: 400;
+    line-height: 1.4;
+    margin: auto;
+    font-size: 1.125rem;
+  }
+  
+  #dropdown {
+    display: block;
+    width: 100%;
+    border: 3px solid steelblue;
+    height: 38px;
+    border-radius: 0.25rem;
+    font-weight: 400;
+    line-height: 1.4;
+    margin: auto;
+    font-size: 1.125rem;
+    color: #495057;
+  }
+  
+  #submit {
+    width: 100%;
+    height: 45px;
+    border: none;
+    background: #37AF65;
+    color: white;
+    margin: auto;
+    font-size: 1.125rem;
+    margin-top: 50px;
+  }
+  
+  textarea {
+    min-height: 120px;
+      width: 97%;
+      padding: 0.625rem;
+      resize: vertical;
+      font-size: 1.125rem;
+      color: #495057;
+      font-family: initial;
+  }
+  
+  #select-an-option {
+    display: block;
+    width: 100%;
+    border: 3px solid steelblue;
+    height: 38px;
+    border-radius: 0.25rem;
+    font-weight: 400;
+    line-height: 1.4;
+    margin: auto;
+    margin-left:10px ;
+    font-size: 1.125rem;
+    color: #495057;
+  }
